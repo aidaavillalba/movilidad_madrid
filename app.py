@@ -72,5 +72,6 @@ nx.draw_networkx(G, nodos_dic, with_labels=False, node_size=20, alpha=0.1, edge_
 fig = nx.draw_networkx_nodes(G, pos, node_color = "gray", node_size=100, alpha=0.5)
 #plt.show()
 
-
-st.pyplot(fig)
+nt = Network("500px", "500px",notebook=True,heading='')
+nt.from_nx(G)
+nt.show('test.html')
