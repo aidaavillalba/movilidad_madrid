@@ -5,7 +5,7 @@ import pandas as pd
 import collections
 import numpy as np
 import seaborn as sns
-from pyvis.network import Network
+#from pyvis.network import Network
 
 import warnings
 warnings.filterwarnings("ignore")
@@ -72,7 +72,8 @@ G.add_edges_from(aristas, weight= pesos)
 nx.draw_networkx(G, nodos_dic, with_labels=False, node_size=20, alpha=0.1, edge_color="red")
 fig = nx.draw_networkx_nodes(G, pos, node_color = "gray", node_size=100, alpha=0.5)
 #plt.show()
-
-nt = Network("500px", "500px",notebook=True,heading='')
-nt.from_nx(G)
-nt.show('test.html')
+st.pyplot(fig)
+st.balloons()
+#nt = Network("500px", "500px",notebook=True,heading='')
+#nt.from_nx(G)
+#nt.show('test.html')
