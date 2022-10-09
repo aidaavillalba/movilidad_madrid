@@ -5,7 +5,7 @@ import pandas as pd
 import collections
 import numpy as np
 import seaborn as sns
-import Network
+from pyvis.network import Network
 
 import warnings
 warnings.filterwarnings("ignore")
