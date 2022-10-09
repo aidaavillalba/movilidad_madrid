@@ -12,7 +12,7 @@ warnings.filterwarnings("ignore")
 
 st.title('Uber pickups in NYC')
 
-
+"""
 df_matriculas = pd.read_excel("./DatosUCM/ucm-matriculas-2020-21-anonimizado.xlsx")
 df_matriculas = df_matriculas[(df_matriculas['des_municipio_residencia'].notna() &df_matriculas['lat_municipio_residencia'].notna()&df_matriculas['lon_municipio_residencia'].notna())]
 df_matriculas = df_matriculas[(df_matriculas['des_municipio_curso'].notna() &df_matriculas['lat_municipio_curso'].notna()&df_matriculas['lon_municipio_curso'].notna())]
@@ -74,3 +74,4 @@ fig = nx.draw_networkx_nodes(G, pos, node_color = "gray", node_size=100, alpha=0
 
 
 st.pyplot(fig)
+"""
