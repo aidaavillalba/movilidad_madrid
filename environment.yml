@@ -4,6 +4,4 @@ dependencies:
   - pandas
   - matplotlib
   - networkx
-  - collections
   - seaborn
-  - pyvis
