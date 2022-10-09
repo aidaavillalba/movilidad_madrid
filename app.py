@@ -1,6 +1,6 @@
 import streamlit as st
 #import networkx as nx
-import matplotlib.pylab as plt
+import matplotlib.pyplot as plt
 import pandas as pd
 import collections
 import numpy as np
