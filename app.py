@@ -13,7 +13,7 @@ warnings.filterwarnings("ignore")
 st.title('Movilidad estudiantes universitarios en Madrid')
 
 
-df_matriculas = pd.read_excel("./Datos/ucm-matriculas-2020-21-anonimizado.csv")
+df_matriculas = pd.read_csv("./Datos/ucm-matriculas-2020-21-anonimizado.csv")
 df_matriculas = df_matriculas[(df_matriculas['des_municipio_residencia'].notna() &df_matriculas['lat_municipio_residencia'].notna()&df_matriculas['lon_municipio_residencia'].notna())]
 df_matriculas = df_matriculas[(df_matriculas['des_municipio_curso'].notna() &df_matriculas['lat_municipio_curso'].notna()&df_matriculas['lon_municipio_curso'].notna())]
 
