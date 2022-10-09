@@ -1,0 +1,9 @@
+name: stats
+dependencies:
+  - numpy
+  - pandas
+  - matplotlib
+  - networkx
+  - collections
+  - seaborn
+  - pyvis
